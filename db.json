@@ -1,0 +1,297 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Classic Spaghetti Bolognese",
+        "price": 12.99,
+        "ingredients": [
+          "Spaghetti pasta",
+          "Ground beef",
+          "Tomato sauce",
+          "Onion",
+          "Garlic",
+          "Olive oil",
+          "Parmesan cheese",
+          "Salt",
+          "Black pepper"
+        ],
+        "preparation": [
+          "Cook spaghetti pasta according to package instructions.",
+          "In a large skillet, heat olive oil over medium heat. Add minced garlic and diced onion, cook until translucent.",
+          "Add ground beef, season with salt and black pepper. Cook until browned.",
+          "Stir in tomato sauce and simmer for 15-20 minutes.",
+          "Serve hot over cooked spaghetti, garnish with grated Parmesan cheese."
+        ],
+        "reviews": [
+          {
+            "username": "Foodie123",
+            "rating": 4.5,
+            "comment": "Delicious and easy to make!"
+          },
+          {
+            "username": "CookingQueen",
+            "rating": 5,
+            "comment": "Best Bolognese recipe I've tried!"
+          }
+        ],
+        "image": "https://media.istockphoto.com/id/181955531/photo/spaghetti.webp?b=1&s=170667a&w=0&k=20&c=eeItQtWD_MM2arl7ZQJoMYWKL72zso6YA6nNOEX7-dA="
+      },
+      {
+        "id": 2,
+        "name": "Homemade Chicken Tikka Masala",
+        "price": 14.99,
+        "ingredients": [
+          "Chicken breast",
+          "Yogurt",
+          "Tomato puree",
+          "Cream",
+          "Onion",
+          "Garlic",
+          "Ginger",
+          "Spices (cumin, coriander, turmeric, paprika, garam masala)",
+          "Butter",
+          "Salt"
+        ],
+        "preparation": [
+          "Marinate chicken breast in yogurt and spices for at least 1 hour.",
+          "In a skillet, melt butter and sauté diced onion, garlic, and ginger until fragrant.",
+          "Add marinated chicken and cook until browned.",
+          "Stir in tomato puree and cream, simmer until chicken is cooked through.",
+          "Serve hot with rice or naan bread."
+        ],
+        "reviews": [
+          {
+            "username": "SpiceLover",
+            "rating": 5,
+            "comment": "Amazing flavors! Will make it again."
+          },
+          {
+            "username": "ChefMaster",
+            "rating": 4,
+            "comment": "Great recipe but a bit spicy for me."
+          }
+        ],
+        "image": "https://media.istockphoto.com/id/967274038/photo/homemade-chicken-tikka-masala.webp?b=1&s=170667a&w=0&k=20&c=8eSCPcx7Hx3ckeHtSlaCHW8rx2mRntHz5lXGx9-XZHU="
+      },
+      {
+        "id": 3,
+        "name": "Classic Margherita Pizza",
+        "price": 9.99,
+        "ingredients": [
+          "Pizza dough",
+          "Tomato sauce",
+          "Fresh mozzarella cheese",
+          "Basil leaves",
+          "Olive oil",
+          "Salt",
+          "Black pepper"
+        ],
+        "preparation": [
+          "Preheat oven to 450°F (230°C).",
+          "Roll out pizza dough on a floured surface and transfer to a baking sheet.",
+          "Spread tomato sauce over the dough, leaving a border around the edges.",
+          "Tear mozzarella cheese and distribute evenly over the sauce.",
+          "Drizzle olive oil and season with salt and pepper.",
+          "Bake in the preheated oven for 12-15 minutes until crust is golden and cheese is bubbly.",
+          "Garnish with fresh basil leaves before serving."
+        ],
+        "reviews": [
+          {
+            "username": "PizzaLover",
+            "rating": 5,
+            "comment": "Perfect Margherita pizza!"
+          },
+          {
+            "username": "CheeseFanatic",
+            "rating": 4.5,
+            "comment": "Delicious and simple recipe."
+          }
+        ],
+        "image": "https://media.istockphoto.com/id/182151036/photo/close-up-of-pizza-margharita.webp?b=1&s=170667a&w=0&k=20&c=qENZy_lTE9HkYeV9HB0dC8vssEB4JH55NAD-f5JOSTM="
+      },
+      {
+        "id": 4,
+        "name": "Creamy Alfredo Pasta",
+        "price": 10.99,
+        "ingredients": [
+          "Fettuccine pasta",
+          "Heavy cream",
+          "Butter",
+          "Garlic",
+          "Parmesan cheese",
+          "Salt",
+          "Black pepper",
+          "Fresh parsley"
+        ],
+        "preparation": [
+          "Cook fettuccine pasta according to package instructions.",
+          "In a saucepan, melt butter and sauté minced garlic until fragrant.",
+          "Pour in heavy cream and simmer until slightly thickened.",
+          "Stir in grated Parmesan cheese, salt, and black pepper.",
+          "Add cooked pasta to the sauce, toss until well coated.",
+          "Serve hot, garnished with fresh parsley."
+        ],
+        "reviews": [
+          {
+            "username": "PastaLover",
+            "rating": 4.8,
+            "comment": "Deliciously creamy! Loved it."
+          },
+          {
+            "username": "CheeseAddict",
+            "rating": 4.5,
+            "comment": "Rich and satisfying pasta dish."
+          }
+        ],
+        "image": "https://media.istockphoto.com/id/1451111530/photo/creamy-alfredo-pasta-with-chicken-mushrooms-and-parmesan-cheese-healthy-italian-food.webp?b=1&s=170667a&w=0&k=20&c=cPrCr7e0QB-1WOxjZt7aSLWiZyPvhmEP5t-eRm4qkFU="
+      },
+      {
+        "id": 5,
+        "name": "Grilled Salmon with Lemon Butter",
+        "price": 16.99,
+        "ingredients": [
+          "Salmon fillets",
+          "Lemon",
+          "Butter",
+          "Garlic",
+          "Fresh dill",
+          "Salt",
+          "Black pepper"
+        ],
+        "preparation": [
+          "Preheat grill to medium-high heat.",
+          "Season salmon fillets with salt and pepper.",
+          "Grill salmon for 5-6 minutes on each side, or until cooked through.",
+          "In a small saucepan, melt butter and sauté minced garlic until fragrant.",
+          "Squeeze lemon juice into the butter, add chopped fresh dill.",
+          "Pour lemon butter sauce over grilled salmon before serving."
+        ],
+        "reviews": [
+          {
+            "username": "SeafoodLover",
+            "rating": 4.9,
+            "comment": "Perfectly grilled salmon!"
+          },
+          {
+            "username": "GrillMaster",
+            "rating": 5,
+            "comment": "Lemon butter sauce is incredible."
+          }
+        ],
+        "image": "https://media.istockphoto.com/id/1329058864/photo/one-sheet-pan-salmon-and-veggies.webp?b=1&s=170667a&w=0&k=20&c=VevUC1w_Nk1kWPzSmjvnhDPky_HcOEZsn8bmr8XZD7Y="
+      },
+      {
+        "id": 6,
+        "name": "Vegetarian Stir-Fried Noodles",
+        "price": 8.99,
+        "ingredients": [
+          "Rice noodles",
+          "Tofu",
+          "Bell peppers",
+          "Broccoli",
+          "Carrots",
+          "Soy sauce",
+          "Garlic",
+          "Ginger",
+          "Sesame oil",
+          "Green onions",
+          "Bean sprouts"
+        ],
+        "preparation": [
+          "Cook rice noodles according to package instructions.",
+          "In a wok or skillet, heat sesame oil over medium-high heat.",
+          "Stir-fry minced garlic and ginger until fragrant.",
+          "Add tofu and cook until golden brown.",
+          "Add sliced bell peppers, broccoli, and carrots, stir-fry until vegetables are tender-crisp.",
+          "Toss in cooked rice noodles and soy sauce, stir until well combined.",
+          "Garnish with chopped green onions and bean sprouts before serving."
+        ],
+        "reviews": [
+          {
+            "username": "VeggieLover",
+            "rating": 4.5,
+            "comment": "Flavorful and satisfying vegetarian dish."
+          },
+          {
+            "username": "NoodleFan",
+            "rating": 4,
+            "comment": "Delicious stir-fried noodles!"
+          }
+        ],
+        "image": "https://media.istockphoto.com/id/1156141366/photo/stir-fry-of-udon-noodles-with-pak-choi-and-shiitake-mushrooms-close-up-horizontal-top-view.webp?b=1&s=170667a&w=0&k=20&c=1xymFzqS_zG5RrBkbYeTLzO6swZMRft1k57nVzu8CEg="
+      },
+      {
+        "id": 7,
+        "name": "BBQ Pulled Pork Sandwich",
+        "price": 11.99,
+        "ingredients": [
+          "Pork shoulder",
+          "BBQ sauce",
+          "Onion",
+          "Garlic",
+          "Buns",
+          "Coleslaw"
+        ],
+        "preparation": [
+          "Rub pork shoulder with salt and pepper.",
+          "Place in a slow cooker with sliced onion and minced garlic.",
+          "Pour BBQ sauce over the pork and cook on low for 8 hours.",
+          "Shred the cooked pork using two forks.",
+          "Assemble pulled pork sandwiches with buns and coleslaw."
+        ],
+        "reviews": [
+          {
+            "username": "BBQLover",
+            "rating": 4.7,
+            "comment": "Deliciously tender pulled pork!"
+          },
+          {
+            "username": "SandwichFan",
+            "rating": 4.5,
+            "comment": "Perfect BBQ sandwich."
+          }
+        ],
+        "image": "https://media.istockphoto.com/id/1405107587/photo/stacked-bbq-pulled-pork-sandwich-with-coleslaw-sitting-in-front-of-bbq-sauce-cup.webp?b=1&s=170667a&w=0&k=20&c=TGkdB7Xm-z8mCdtnzoBx_g7iAtS_kcyvkJ9Y_sEkeKc="
+      },
+      {
+        "id": 8,
+        "name": "Chocolate Chip Cookies",
+        "price": 7.99,
+        "ingredients": [
+          "All-purpose flour",
+          "Butter",
+          "Sugar",
+          "Brown sugar",
+          "Egg",
+          "Vanilla extract",
+          "Baking soda",
+          "Salt",
+          "Chocolate chips"
+        ],
+        "preparation": [
+          "Preheat oven to 375°F (190°C).",
+          "In a mixing bowl, cream together butter and sugars until smooth.",
+          "Beat in egg and vanilla extract.",
+          "Combine flour, baking soda, and salt; gradually stir into the creamed mixture.",
+          "Fold in chocolate chips.",
+          "Drop dough by tablespoonfuls onto ungreased baking sheets.",
+          "Bake for 8-10 minutes until edges are lightly browned.",
+          "Cool on baking sheets for a few minutes before transferring to wire racks to cool completely."
+        ],
+        "reviews": [
+          {
+            "username": "CookieMonster",
+            "rating": 5,
+            "comment": "Best chocolate chip cookies ever!"
+          },
+          {
+            "username": "BakingPro",
+            "rating": 4.5,
+            "comment": "Perfect texture and flavor."
+          }
+        ],
+        "image": "https://media.istockphoto.com/id/157615724/photo/slightly-overdone-chocolate-chip-cookies-in-a-messy-pile.webp?b=1&s=170667a&w=0&k=20&c=Ac-CTjQjYFjbYgqZZhxq5n0UefN8BpxoKr3XgF3CymY="
+      }
+      
+    ]
+  }
