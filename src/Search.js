@@ -30,5 +30,4 @@ function Search({ recipes, setFilteredRecipes }) {
     </div>
   );
 }
-
 export default Search;

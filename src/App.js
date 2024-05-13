@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <h1>Welcome to My Recipe App</h1>
+        <h1>Chelsea'S Kitchen</h1>
         <Navbar />
         <Routes>
           <Route path="/" element={<RecipeList />} />
