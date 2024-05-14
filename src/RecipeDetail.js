@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getAllRecipes } from './apiService';
+import { getRecipeById } from './apiService';
 
 function RecipeDetail() {
   const { id } = useParams();
@@ -8,23 +8,31 @@ function RecipeDetail() {
 
   useEffect(() => {
     const fetchRecipe = async () => {
-      const recipesData = await getAllRecipes();
-      const selectedRecipe = recipesData.find(r => r.id === parseInt(id));
+      try {
+        const recipeData = await getRecipeById(id);
 
-      // Fetch reviews associated with the selected recipe
-      const recipeWithReviews = {
-        ...selectedRecipe,
-        reviews: selectedRecipe.reviews || [] // Ensure reviews array exists
-      };
+        if (!recipeData) {
+          throw new Error('Recipe not found');
+        }
 
-      setRecipe(recipeWithReviews);
+        // Fetch reviews associated with the selected recipe (if available)
+        const recipeWithReviews = {
+          ...recipeData,
+          reviews: recipeData.reviews || []
+        };
+
+        setRecipe(recipeWithReviews);
+      } catch (error) {
+        console.error('Error fetching recipe:', error);
+        setRecipe(null);
+      }
     };
 
     fetchRecipe();
   }, [id]);
 
   if (!recipe) {
-    return <div>Loading...</div>;
+    return <p>Loading recipe...</p>;
   }
 
   return (
